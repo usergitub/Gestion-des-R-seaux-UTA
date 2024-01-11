@@ -1,0 +1,50 @@
+# Gestion des Réseaux UTA
+
+Ce programme permet de gérer les souscriptions aux services UTA tels que les appels, Internet et les SMS. Les utilisateurs peuvent choisir la catégorie, la durée et le mode de paiement.
+
+## Informations initiales
+
+- Solde du Compte Principal : 17225f
+- Solde du Compte UTA Money : 176249f
+
+## Tarifs
+
+Les tarifs pour les services Internet, SMS et Appel sont prédéfinis dans le programme.
+
+- Internet :
+  - Jour : {1: (100, 100), 2: (200, 200), 3: (500, 1500)}
+  - Semaine : {1: (1000, 3000), 2: (1500, 4500), 3: (2000, 6000)}
+  - Mois : {1: (2500, 7500), 2: (5000, 15000), 3: (10000, 30000)}
+
+- SMS :
+  - Jour : {1: (100, 100), 2: (200, 200), 3: (500, 150)}
+  - Semaine : {1: (1000, 300), 2: (1500, 450), 3: (2000, 600)}
+  - Mois : {1: (2500, 750), 2: (5000, 1500), 3: (10000, 3000)}
+
+- Appel :
+  - Jour : {1: (100, 10), 2: (200, 20), 3: (500, 50)}
+  - Semaine : {1: (1000, 100), 2: (1500, 150), 3: (2000, 200)}
+  - Mois : {1: (2500, 400), 2: (3000, 1000), 3: (10000, 10000)}
+
+## Utilisation
+
+1. Exécutez le programme en utilisant Python 3.11 :
+
+    ```bash
+    & C:/Users/manue/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/manue/Desktop/EXO/Reseaux UTA.py"
+    ```
+
+2. Entrez le code de vérification : `#2024#`.
+
+3. Choisissez la catégorie, la durée et le mode de paiement en suivant les instructions.
+
+4. Suivez les étapes jusqu'à la fin de la souscription.
+
+## Gestion des Erreurs
+
+- Si le code de vérification est incorrect, l'opération est annulée.
+- Si une entrée incorrecte est saisie (choix de catégorie, durée, etc.), l'utilisateur est invité à réessayer.
+
+---
+
+Ce programme a été développé par Manuel Tite.
